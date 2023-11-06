@@ -10,8 +10,8 @@
 
 ### General info
 
-19.07.23. Updates. We create a new version of the template. It is already written in Typescript !
-In this template every time we manually create 7 files for one CRUD logic. Now you can create your CRUD new files at once just using `rest-resource-file-generator` npm module made by me :tophat: \
+template Node.js
+In this template every wen i manually create 7 files for one CRUD logic. Now you can create your CRUD new files at once just using `rest-resource-file-generator` npm module made by me :tophat: \
 Here is the link of instructions in npm [rest-resource-file-generator](https://www.npmjs.com/package/rest-resource-file-generator) \
 This is a simple Node.js server application boilerplate with CRUD operations simple logic. It provides REST APIs.
 Before using it, please ensure that you've already installed the following programs\
