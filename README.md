@@ -1,7 +1,11 @@
 # Node.js server template
 
+### For client side you can Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### For server side you can Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
+
 # Run the app with the following command:
-node app.js
+npm run dev
 
 ## Table of contents
 
