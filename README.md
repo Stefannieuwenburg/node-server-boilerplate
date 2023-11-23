@@ -1,6 +1,7 @@
 # Node.js server template
 
 ### For client side you can Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Blog-page
 
 ### For server side you can Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
@@ -21,6 +22,8 @@ template Node.js
 [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) as version control,\
 [Node.js](https://nodejs.org/en/) as server program,\
 [MongoDb](https://docs.mongodb.com/manual/installation/) as database program.\
+[Youtube](https://www.youtube.com/watch?v=w3vs4a03y3I&list=PL5HEEqjk82MOVgDj3nqEyw8OJ31hv8z3Z&index=7)
+
 If you haven't, these are their links for installing.
 
 ### Technologies
