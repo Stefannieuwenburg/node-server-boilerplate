@@ -1,6 +1,6 @@
-import Navbar from './Navbar'; 
-import Banner from './Banner'; 
-import Post from './Post'; 
+import Navbar from './Navbar/page'; 
+import Banner from './Banner/page'; 
+import Post from './Post/page'; 
 export default function Home() {
   
    // Adding Dummy Data to pass as props 

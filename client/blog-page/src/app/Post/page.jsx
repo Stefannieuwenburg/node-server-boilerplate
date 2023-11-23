@@ -12,9 +12,9 @@ export default function Post(props) {
 						<article className="flex max-w-xl flex-col 
 											items-start justify-between"> 
 							<div className="flex items-center gap-x-4 text-xs"> 
-								<time datetime="2023-03-16"
+								<time dateTime="2023-03-16"
 									className="text-gray-500"> 
-									Mar 16, 2023 
+									Nov 16, 2023 
 								</time> 
 								<a 
 									href="#"
@@ -46,9 +46,9 @@ export default function Post(props) {
 									viewBox="0 0 32 32"
 									className="h-10 w-10 rounded-full"
 									xmlns= 
-"http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g> 
+"http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g> 
 								<g id="SVGRepo_tracerCarrier"
-								stroke-linecap="round" stroke-linejoin="round"> 
+								strokelinecap="round" strokelinejoin="round"> 
 								</g> 
 								<g id="SVGRepo_iconCarrier"> 
 								<path d= 
