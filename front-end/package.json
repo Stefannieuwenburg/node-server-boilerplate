@@ -1,6 +1,7 @@
 {
   "name": "blog-page",
   "version": "0.1.0",
+  "proxy": "http://localhost:5000",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,9 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
