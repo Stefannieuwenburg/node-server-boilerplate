@@ -1,8 +1,18 @@
 ### Node.js server template
 Next.js front end blog page whith tailwind css to show the working of the boilerplate for node.js server
 
+
+### For server side you can Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
+back-end: http://localhost:5000
+
+First, run the development server:
+
+npm run dev
+
+Node.js server whith nodemon to keep it running + MongoDB database
+
 ### For client side you can Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-Blog page
+front-end: http://localhost:3000
 
 First, run the development server:
 
@@ -13,9 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-### For server side you can Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
-Node.js server whith MongoDB database
 
 ### Run the app with the following command:
 npm run dev
