@@ -56,11 +56,11 @@ export default function Navbar() {
                                               hover:bg-gray-100  
                                               md:hover:bg-transparent  
                                               md:hover:text-blue-700 md:p-0 link ${
-                                                pathname === "/NewPost"
+                                                pathname === "/Newpost"
                                                   ? "active"
                                                   : ""
                                               }`}
-                  href="/NewPost"
+                  href="/Newpost"
                 >
                   NewPost
                 </Link>

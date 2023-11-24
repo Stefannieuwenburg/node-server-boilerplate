@@ -1,29 +1,52 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useEffect, useState } from 'react';
 import Navbar from "../Navbar/page";
 import Banner from "../Banner/page";
-export default function NewPost() {
-  const [data, setData] = useState(null);
-  const [isLoading, setLoading] = useState(true);
+function Newpost() {
+  const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/users", { mode: "no-cors" })
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-        setLoading(false);
-      });
-  }, []);
+    const fetchData = async () => {
+      try {
+        const response = await fetch('http://localhost:5000/users');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        console.log(data); // Log the data to see its structure
 
-  if (isLoading) return <p>Loading...</p>;
-  if (!data) return <p>No profile data</p>;
+        if (data.status === 'success' && Array.isArray(data.data)) {
+          setUsers(data.data);
+        } else {
+          throw new Error('Invalid response format');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <div>
       <Navbar />
       <Banner />
-      <p>{data}</p>
+      <div className="flex flex-col items-center justify-center">
+      <h1 className="text-gray-800 font-bold">Users</h1>
+      <ul>
+        {users.map((user) => (
+          <div key={user.id} className="text-gray-800">
+            <p>id: {user.id}</p>
+            <p>name: {user.name}</p>
+            <p>Age: {user.age}</p>
+            </div>
+        ))}
+    </ul>
+     </div>
     </div>
   );
 }
+
+export default Newpost;
