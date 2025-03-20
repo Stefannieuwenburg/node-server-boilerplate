@@ -1,7 +1,6 @@
 ### Node.js server template
 Next.js front end blog page whith tailwind css to show the working of the boilerplate for node.js server
 
-
 ### For server side you can Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 back-end: http://localhost:5000
 
